@@ -13,19 +13,11 @@ require.config({
             exports: 'Backbone'
         }
     },
-    kinetic: {
-        deps: [
-            'jquery'
-        ],
-        exports: 'kineticJS'
-    },
     paths: {
         jquery: 'libs/jquery',
         underscore: 'libs/underscore',
         backbone: 'libs/backbone',
-        localstorage: 'libs/backbone.localStorage',
         text: 'libs/require/text',
-        kinetic: 'libs/kinetic',
         templates: '../templates'
     }
 });

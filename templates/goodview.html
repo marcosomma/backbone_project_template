@@ -1,0 +1,19 @@
+<table style="width: 600px; border: 1px solid #ccc">
+    <thead style="background: #ccc">
+    <tr>
+        <td style="width: 150px; text-align: center; font-size: 20px; font-weight: bold">Name</td>
+        <td style="width: 150px; text-align: center; font-size: 20px; font-weight: bold">Superpower</td>
+        <td style="width: 300px; text-align: center; font-size: 20px; font-weight: bold">Era</td>
+    </tr>
+    </thead>
+    <tbody>
+<% _.each(gods, function(gods, i) { %>
+        <tr>
+            <td style="border: 1px solid #ccc"><%= gods.name %></td>
+            <td style="border: 1px solid #ccc"><%= gods.superpower %></td>
+            <td style="border: 1px solid #ccc"><%= gods.end_of_an_era %></td>
+        </tr>
+
+<% }); %>
+    </tbody>
+</table>
